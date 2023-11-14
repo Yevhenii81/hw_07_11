@@ -94,7 +94,7 @@ int main() {
     printArray(array, rows, columns);
 
     
-    //int colIndexToAdd = 2;
+    int colIndexToAdd = 2;
     AddColumn(array, rows, &columns, colIndexToAdd);
 
     cout << "\narray after adding columns:\n";
